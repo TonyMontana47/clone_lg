@@ -1,0 +1,48 @@
+*{padding: 0; margin: 0; font-family: sans-serif;}
+
+/* Header section start  */
+.header{height: 70px; width: 100%;display: flex; align-items: center;}
+.header .logo img{ width: 60px;}
+.header .logo{width: 10%;}
+.header .nav-links{width: 88%;}
+.header a{text-decoration: none; color: black; margin: 5px; padding: 10px;}
+.header .nav-links .row1{display: flex; justify-content: space-between; border-bottom: 0.4px solid lightgrey;}
+.header .nav-links .row2{display: flex; justify-content: space-between; padding-top: 5px;}
+/* Hearder section End  */
+
+/* Slider section start */
+ .slider{width: 100%; height: 800px; background-image: url("../img/banner.webp");}
+ .slider a{text-decoration: none; color: white; background-color: maroon; padding: 15px;
+     position: absolute;top: 100%; left: 10%;}
+/* .slider section End */
+
+/* row1 statrt */
+.row1{ display: flex; justify-content: space-evenly; width: 40% auto; padding-top: 20px; text-align: center;}
+.col-img{width: 300px; height: 300px;}
+.row1 .col1, .col2, .col3{border: 1px solid lightgrey; border-radius: 20px; padding: 30px;}
+.row1 p{padding: 15px; color: grey;}
+.row1 h1{font-size: 20px; padding: 30px;}
+/* row1 End */
+
+/* slider2 section start  */
+.slider2 {width: 95%; height: 350px; background-image: url(../img/B2B\ Banner-01-01.webp); margin: 30px; background-size: cover; background-position: center;}
+.slider2 a{text-decoration: none; color: white; background-color: maroon;padding:15px;
+margin-left: 46%; position: relative;top: 60%;}
+/* slider2 section End  */
+
+/* row2 statrt */
+.row2{display: flex; justify-content: space-evenly; padding-top: 20px;}
+.row2 img{width: 400px;}
+.row2 p{padding-top: 10px; color: rgba(29, 28, 28, 0.404);}
+/* row2 End */
+
+/* row3 section start  */
+.row3{display: flex;justify-content: center; margin-left: 150px; margin-top: 60px;}
+.row3 a{ text-decoration: none; color: gray; width: 60%; border-bottom:0.9px solid gray;}
+/* row3 section End   */
+
+/* row4 section start  */
+.row4{display: flex; justify-content: space-evenly;padding-top: 50px;}
+.row4 img{width: 200px;}
+.row4 p{padding-top: 20px;color: gray;}
+/* row4 section End  */
